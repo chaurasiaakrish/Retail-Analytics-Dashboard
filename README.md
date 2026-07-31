@@ -1,6 +1,6 @@
 # 🛒 Retail Analytics Dashboard
 
-An end-to-end Retail Analytics project built using **SQL, Python (Pandas), and Power BI** to analyze retail sales, customer behavior, and business performance.
+An end-to-end Retail Analytics project built using **SQL, Python (Pandas), and Tableau ** to analyze retail sales, customer behavior, and business performance.
 
 ## 📌 Project Overview
 
@@ -22,27 +22,29 @@ This project demonstrates a complete data analytics workflow:
 - Pandas
 - NumPy
 - Matplotlib
-- Power BI
+- Tableau
 - Git & GitHub
 
 ---
 
 ## 📂 Project Structure
 
-```
-Retail-Analytics-Dashboard/
+```Retail-Analytics-Dashboard/
 │
 ├── data/
 │   └── Superstore.csv
 │
 ├── sql/
-│   └── 01_basic_queries.sql
+│   ├── 01_basic_queries.sql
+│   ├── 02_filtering_queries.sql
+│   ├── ...
 │
 ├── python/
-│   └── eda.ipynb
+│   └── retail_analysis.ipynb
 │
-├── dashboard/
-│   └── RetailDashboard.pbix
+├── tableau/
+│   ├── dashboard.twbx
+│   └── dashboard_screenshot.png
 │
 ├── images/
 │
@@ -106,7 +108,3 @@ Some of the questions answered in this project include:
 - Business Analytics
 
 ---
-
-## 📌 Status
-
-🚧 Currently under development as part of a hands-on Data Analytics portfolio project.
