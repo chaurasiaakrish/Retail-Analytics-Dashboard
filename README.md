@@ -1,99 +1,116 @@
 # 📊 Retail Analytics Dashboard
 
-An interactive **Retail Analytics Dashboard** developed using Business Intelligence principles to analyze retail sales performance across multiple business dimensions.
+An interactive **Retail Analytics Dashboard** developed to analyze business performance across sales, profit, customer segments, shipping modes, and product categories.
 
-This project demonstrates the use of data visualization to transform raw retail data into actionable business insights.
+This project demonstrates how Business Intelligence can transform raw retail data into meaningful business insights for data-driven decision making.
 
 ---
 
-# 🖼️ Dashboard Overview
+# 🖼 Dashboard Overview
 
 ![Dashboard Overview](images/7.%20Dashboard%20Overview.png)
-
 
 ---
 
 # 🎯 Project Objectives
 
-- Analyze overall sales and profit performance.
+- Analyze total sales and profit.
 - Compare sales across different regions.
-- Evaluate customer segments.
-- Identify profitable product categories.
+- Identify top-performing customer segments.
+- Evaluate profit by product category.
 - Analyze yearly sales trends.
-- Discover top-performing customers.
-- Understand shipping mode preferences.
+- Identify top customers by sales.
+- Compare different shipping modes.
 
 ---
 
-# 📈 Dashboard Visualizations
+# 📈 Dashboard Components
 
-## 1. Sales by Region
+## 1️⃣ Total Sales
 
-![Sales by Region](images/sales-by-region.png)
-
-**Key Insights**
-- West region recorded the highest sales.
-- South region recorded the lowest sales.
+Displays the total sales generated across all orders.
 
 ---
 
-## 2. Sales by Segment
+## 2️⃣ Total Profit
 
-![Sales by Segment](images/sales-by-segment.png)
+Displays the total profit earned by the business.
 
-**Key Insights**
+---
+
+## 3️⃣ Sales By Region
+
+![Sales By Region](images/1.%20Sales%20By%20Region.png)
+
+### Key Insights
+
+- West region generated the highest sales.
+- South region generated the lowest sales.
+
+---
+
+## 4️⃣ Sales By Segment
+
+![Sales By Segment](images/2.%20Sales%20By%20Segment.png)
+
+### Key Insights
+
 - Consumer segment contributed the highest revenue.
-- Home Office segment generated the lowest sales.
+- Home Office generated the lowest sales.
 
 ---
 
-## 3. Profit by Category
+## 5️⃣ Profit By Category
 
-![Profit by Category](images/profit-by-category.png)
+![Profit By Category](images/3.%20Profit%20By%20Category.png)
 
-**Key Insights**
+### Key Insights
+
 - Technology generated the highest profit.
 - Furniture generated the lowest profit.
 
 ---
 
-## 4. Sales by Ship Mode
+## 6️⃣ Sales By Ship Mode
 
-![Sales by Ship Mode](images/sales-by-ship-mode.png)
+![Sales By Ship Mode](images/4.%20Sales%20By%20Ship%20Mode.png)
 
-**Key Insights**
+### Key Insights
+
 - Standard Class accounted for the majority of total sales.
-- Same Day shipping had the lowest sales.
+- Same Day shipping generated the lowest sales.
 
 ---
 
-## 5. Yearly Sales Trend
+## 7️⃣ Yearly Sales Trend
 
-![Yearly Sales](images/yearly-sales.png)
+![Yearly Sales](images/5.%20Yearly%20Sales.png)
 
-**Key Insights**
-- Sales showed a steady upward trend from 2015 to 2017.
+### Key Insights
+
+- Sales steadily increased from 2015 to 2017.
 
 ---
 
-## 6. Top Customers by Sales
+## 8️⃣ Top Customers By Sales
 
-![Top Customers](images/top-customers.png)
+![Top Customers](images/6.%20Top%20Customers%20By%20Sales.png)
 
-**Key Insights**
-- Sean Miller was the highest revenue-generating customer.
+### Key Insights
+
+- Sean Miller generated the highest sales.
 - Tamara Chand and Raymond Buch were among the top contributors.
 
 ---
 
-# 💼 Business Insights
+# 💡 Business Insights
 
-- 📍 West region achieved the highest sales.
+- 📍 West region achieved the highest sales performance.
 - 👥 Consumer segment generated the maximum revenue.
-- 💻 Technology category delivered the highest profit.
+- 💻 Technology category produced the highest profit.
 - 🚚 Standard Class was the preferred shipping mode.
-- 📈 Sales consistently increased over the observed years.
-- 🏆 A small number of customers contributed significantly to overall revenue.
+- 📈 Sales consistently increased over the years.
+- 🏆 A small group of customers contributed significantly to overall revenue.
 
 ---
 
@@ -109,14 +126,14 @@ This project demonstrates the use of data visualization to transform raw retail 
 
 # 🚀 Skills Demonstrated
 
-- Data Analysis
 - SQL
-- Tableau Dashboard Development
+- Tableau
+- Dashboard Development
 - Data Visualization
 - Business Intelligence
-- Business Analytics
 - KPI Analysis
 - Trend Analysis
+- Retail Analytics
 
 ---
 
@@ -129,7 +146,7 @@ Raw Dataset
 Data Cleaning
       │
       ▼
-Data Analysis (SQL)
+SQL Analysis
       │
       ▼
 Dashboard Development (Tableau)
@@ -146,20 +163,10 @@ Business Insights
 Retail-Analytics-Dashboard
 │
 ├── dashboard
-│   └── Retail Analytics Dashboard.twb / .twbx
-│
 ├── data
-│   └── Superstore.csv
-│
 ├── images
-│   ├── dashboard-overview.png
-│   ├── sales-by-region.png
-│   ├── sales-by-segment.png
-│   ├── profit-by-category.png
-│   ├── sales-by-ship-mode.png
-│   ├── yearly-sales.png
-│   └── top-customers.png
-│
+├── python
+├── sql
 └── README.md
 ```
 
@@ -167,23 +174,24 @@ Retail-Analytics-Dashboard
 
 # 🏅 Training & Certification
 
-I completed a **36-hour Training Program on Data Analysis using SQL & Tableau** conducted by **ABES Institute of Technology (ABESIT)**.
+I successfully completed a **36-Hour Training Program on Data Analysis using SQL & Tableau** conducted by **ABES Institute of Technology (ABESIT)**.
 
-![SQL & Tableau Certificate](images/sql-tableau-certificate.jpeg)
+![SQL & Tableau Certificate](images/Data%20Analysis%20Using%20SQL%20and%20Tabluae.jpeg)
 
 This training strengthened my understanding of:
-- SQL for data querying and analysis
+
+- SQL for data analysis
 - Tableau dashboard development
-- Data visualization best practices
-- Business analytics concepts
-- KPI reporting
+- Business Intelligence
+- Data Visualization
+- KPI Reporting
 
 ---
 
 # 🌱 Future Enhancements
 
-- Add interactive dashboard filters.
-- Create customer profitability analysis.
+- Add interactive filters and slicers.
+- Develop customer profitability analysis.
 - Build sales forecasting using Machine Learning.
 - Publish the dashboard online.
 - Expand the project with predictive analytics.
