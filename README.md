@@ -8,7 +8,7 @@ This project demonstrates the use of data visualization to transform raw retail 
 
 # 🖼️ Dashboard Overview
 
-![Dashboard Overview](images/Dashboard Overview.png)
+![Dashboard Overview](images/Dashboard-Overview.png)
 
 ---
 
