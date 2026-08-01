@@ -187,15 +187,5 @@ This training strengthened my understanding of:
 - KPI Reporting
 
 ---
-
-# 🌱 Future Enhancements
-
-- Add interactive filters and slicers.
-- Develop customer profitability analysis.
-- Build sales forecasting using Machine Learning.
-- Publish the dashboard online.
-- Expand the project with predictive analytics.
-
----
-
-## ⭐ If you found this project useful, consider giving it a star!
+# Author:
+Akrish Chaurasia
