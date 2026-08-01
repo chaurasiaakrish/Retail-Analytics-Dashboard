@@ -6,6 +6,12 @@ This project demonstrates how Business Intelligence can transform raw retail dat
 
 ---
 
+# 📊 Dataset
+
+- Source: Superstore Dataset
+- Records: ~9,994 Orders
+- Features: Customer, Product, Sales, Profit, Discount, Shipping, Region
+  
 # 🖼 Dashboard Overview
 
 ![Dashboard Overview](images/7.%20Dashboard%20Overview.png)
@@ -116,40 +122,41 @@ Displays the total profit earned by the business.
 
 # 🛠️ Tools & Technologies
 
+- SQL (MySQL)
+- Python
+- Pandas
 - Tableau
-- SQL
-- Microsoft Excel
-- Data Visualization
-- Business Intelligence
+- DBeaver
+- Git & GitHub
 
 ---
 
 # 🚀 Skills Demonstrated
 
-- SQL
-- Tableau
-- Dashboard Development
-- Data Visualization
+- SQL Querying
+- Data Cleaning using Pandas
+- Exploratory Data Analysis
+- Tableau Dashboard Development
+- KPI Reporting
 - Business Intelligence
-- KPI Analysis
-- Trend Analysis
-- Retail Analytics
+- Data Visualization
+- Git & GitHub
 
 ---
 
 # 🔄 Project Workflow
 
 ```text
-Raw Dataset
+Raw Dataset (CSV)
       │
       ▼
-Data Cleaning
+Data Cleaning (Python + Pandas)
       │
       ▼
-SQL Analysis
+SQL Business Analysis
       │
       ▼
-Dashboard Development (Tableau)
+Interactive Dashboard (Tableau)
       │
       ▼
 Business Insights
@@ -162,30 +169,52 @@ Business Insights
 ```text
 Retail-Analytics-Dashboard
 │
-├── dashboard
-├── data
-├── images
-├── python
-├── sql
+├── data/
+│   ├── Superstore.csv
+│   └── Superstore_Cleaned.csv
+│
+├── sql/
+│   ├── 01_basic_queries.sql
+│   └── 02_filtering_queries.sql
+│
+├── python/
+│   └── 01_data_cleaning.ipynb
+│
+├── dashboard/
+│   └── Retail_Analytics_Dashboard.twbx
+│
+├── images/
+│   ├── Dashboard Overview.png
+│   ├── Sales By Region.png
+│   └── ...
+│
 └── README.md
 ```
+# ✨ Features
+
+- Interactive Tableau Dashboard
+- KPI Cards
+- Region Filter
+- SQL Business Analysis
+- Python Data Cleaning
+- Business Insights
+
+# 🔮 Future Improvements
+
+- Add advanced SQL analysis using Window Functions
+- Build predictive sales forecasting
+- Connect Tableau directly to MySQL
+- Automate data refresh using Python
+
+## License
+
+This project is for educational and portfolio purposes.
 
 ---
 
-# 🏅 Training & Certification
+## 👨‍💻 Author
 
-I successfully completed a **36-Hour Training Program on Data Analysis using SQL & Tableau** conducted by **ABES Institute of Technology (ABESIT)**.
+**Akrish Chaurasia**
 
-![SQL & Tableau Certificate](images/Data%20Analysis%20Using%20SQL%20and%20Tabluae.jpeg)
-
-This training strengthened my understanding of:
-
-- SQL for data analysis
-- Tableau dashboard development
-- Business Intelligence
-- Data Visualization
-- KPI Reporting
-
----
-# Author:
-Akrish Chaurasia
+- GitHub: https://github.com/chaurasiaakrish
+- LinkedIn: https://www.linkedin.com/in/akrishchaurasia/
