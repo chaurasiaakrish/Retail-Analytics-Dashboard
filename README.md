@@ -199,6 +199,10 @@ Retail-Analytics-Dashboard
 - Python Data Cleaning
 - Business Insights
 
+# Certificate of Completion of Project 
+
+![Certificate Overview](Data%20Analysis%20Using%20SQL%20and%20Tabluae.jpeg)
+
 # 🔮 Future Improvements
 
 - Add advanced SQL analysis using Window Functions
